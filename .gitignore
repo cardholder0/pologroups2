@@ -1,48 +1,72 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# ========================================
+# WordPress Core (ignore)
+# ========================================
+wp/wp-admin/
+wp/wp-includes/
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# Config outside VCS
+wp/wp-config.php
+wp/.htaccess
 
-# Configuration
-wp-config.php
+# ========================================
+# WordPress wp-content
+# ========================================
 
-# Example themes
-/wp-content/themes/twenty*/
+# Игнорировать весь wp-content
+wp/wp-content/*
 
-# Example plugin
-/wp-content/plugins/hello.php
+# Но НЕ игнорировать папку themes целиком
+!wp/wp-content/themes/
+!wp/wp-content/themes/**
 
-# Uploads
-/wp-content/uploads/
+# Если хочешь исключить node_modules внутри тем
+wp/wp-content/themes/**/node_modules/
 
-# Log files
-*.log
+# ========================================
+# Docker
+# ========================================
+/db_data/
+*.pid
+*.sock
+docker/*.pid
+docker/*.log
 
-# htaccess
-/.htaccess
+# ========================================
+# Database Dumps (разрешить dump.sql, если нужно)
+# Игнорируем архивы
+*.tar
+*.gz
+*.zip
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# ========================================
+# System / OS
+# ========================================
+.DS_Store
+Thumbs.db
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# ========================================
+# Node
+# ========================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ========================================
+# IDE
+# ========================================
+.vscode/
+.idea/
+*.iml
+
+# ========================================
+# Environment
+# ========================================
+.env
+.env.local
+.env.*.local
+
+# ========================================
+# Temporary
+# ========================================
+tmp/
+.cache/
