@@ -12,7 +12,7 @@ services:
       MYSQL_USER: wpuser
       MYSQL_PASSWORD: wppass
     volumes:
-      - ./mysql:/var/lib/mysql
+      - db_data:/var/lib/mysql
 
   wordpress:
     image: wordpress:php8.1-fpm

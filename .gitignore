@@ -1,72 +1,31 @@
-# ========================================
-# WordPress Core (ignore)
-# ========================================
 wp/wp-admin/
 wp/wp-includes/
-
-# Config outside VCS
 wp/wp-config.php
 wp/.htaccess
-
-# ========================================
-# WordPress wp-content
-# ========================================
-
-# Игнорировать весь wp-content
 wp/wp-content/*
-
-# Но НЕ игнорировать папку themes целиком
 !wp/wp-content/themes/
 !wp/wp-content/themes/**
-
-# Если хочешь исключить node_modules внутри тем
+!wp/wp-content/plugins/
+!wp/wp-content/plugins/**
 wp/wp-content/themes/**/node_modules/
-
-# ========================================
-# Docker
-# ========================================
 /db_data/
 *.pid
 *.sock
 docker/*.pid
 docker/*.log
-
-# ========================================
-# Database Dumps (разрешить dump.sql, если нужно)
-# Игнорируем архивы
 *.tar
 *.gz
 *.zip
-
-# ========================================
-# System / OS
-# ========================================
 .DS_Store
 Thumbs.db
-
-# ========================================
-# Node
-# ========================================
 node_modules/
 npm-debug.log
 yarn-error.log
-
-# ========================================
-# IDE
-# ========================================
 .vscode/
 .idea/
 *.iml
-
-# ========================================
-# Environment
-# ========================================
 .env
 .env.local
 .env.*.local
-
-# ========================================
-# Temporary
-# ========================================
 tmp/
 .cache/

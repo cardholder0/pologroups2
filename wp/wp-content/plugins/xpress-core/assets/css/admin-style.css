@@ -1,0 +1,367 @@
+.csf-field-select select {
+	min-width: 200px;
+}
+@media (min-width: 1120px){
+	.ocdi__gl-item {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 calc(33.3333% - 30px) !important;
+		flex: 0 0 calc(33.3333% - 30px)!important;
+	}
+}
+
+
+.ta-inactive, mark.error {
+	background-color: rgba(230, 30, 31, 0.1);
+	color: #e61e1f;
+}
+mark.green {
+	background-color: rgba(0, 230, 64, 0.1);
+	color: #000;
+}
+
+table.system-status-table {
+	border: 1px solid #d5d5d5;
+	border-collapse: collapse;
+}
+
+table.system-status-table tr, table.system-status-table td, table.system-status-table th {
+	border: 1px solid #d5d5d5;
+	padding: 15px;
+}
+.demo__ip-notice {
+	box-shadow: 0px 0px 68px 0px rgba(19, 19, 19, 0.11);
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+.demo__ip-notice h1 {
+	font-size: 24px;
+	line-height: 35px;
+}
+
+
+
+
+.ocdi__gl-item {
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.07) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	overflow: hidden;
+	position: relative;
+}
+.ocdi__gl-item-title {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/* display: block; */
+	margin: 0;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	font-weight: 500;
+	color: #23282d;
+	padding: 5px 0 6px;
+	transition: .3s;
+}
+.ocdi__gl-item:hover .ocdi__gl-item-title {
+	display: block;
+	opacity: 0;
+	transform: translateY(-5px);
+}
+.ocdi__gl-item:hover .ocdi__gl-item-buttons {
+	/* display: block; */
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ocdi__gl-item-buttons {
+	text-align: center;
+	/* transition: 3s; */
+	/* position: absolute; */
+	opacity: 0;
+	transition: .3s;
+	display: flex;
+	justify-content: center;
+	transition: .3s;
+	transform: translateY(5px);
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	right: 0;
+}
+.ocdi__gl-item:hover .ocdi__gl-item-buttons {
+	display: flex;
+}
+.ocdi__gl-item-footer {
+	margin: 0;
+	padding: 16px 10px;
+	border-top: 1px solid #dddddd;
+	background: #ffffff;
+	background: rgba(255, 255, 255, 0.65);
+}
+
+/*csf style */
+
+.csf-theme-dark .csf-nav ul ul li .csf-active {
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf-theme-dark .csf-nav ul li a {
+	color: #999;
+	border-color: #252837;
+	background-color: #181c28;
+}
+.csf-nav ul ul li a {
+	padding: 15px 14px 15px 24px;
+}
+.csf-nav ul li a {
+	padding: 15px 12px;
+}
+.csf-theme-dark .csf-nav-background {
+	background-color: #121622;
+}
+.csf-footer {
+	padding: 40px;
+}
+.csf-theme-dark .csf-footer {
+	background-color: #121622;
+}
+.csf-theme-dark .csf-header-inner {
+	background-color: #121622;
+}
+
+input.button.button-primary.csf-top-save.csf-save {
+	height: 44px;
+}
+.button.button-primary.csf-cloneable-add {
+	line-height: 44px;
+}
+.csf-field-switcher .csf--active {
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf-field-switcher .csf--switcher {
+	width: 74px;
+	height: 35px;
+}
+.csf-field-switcher .csf--active {
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf-field-switcher .csf--off, .csf-field-switcher .csf--on {
+	line-height: 35px;
+}
+.csf-field-switcher .csf--active .csf--ball {
+	margin-left: -30px;
+}
+.csf-field-switcher .csf--ball {
+	top: 10px;
+}
+.csf-field-switcher .csf--ball {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+}
+.csf-field-switcher .csf--off, .csf-field-switcher .csf--on {
+	font-size: 12px;
+}
+.csf-buttons .button {
+	margin: 0 5px;
+}
+a.button.button-primary.csf-icon-add, a.button.csf-warning-primary.csf-icon-remove,
+a.button.button-primary.csf--button {
+	line-height: 40px;
+	padding: 0 20px;
+}
+
+.csf-field-switcher .csf--switcher {
+	background-color: #d33434;
+}
+.csf-field-switcher .csf--ball {
+	left: 13px;
+}
+.csf-field-slider .ui-slider-handle:hover, .csf-field-slider .ui-state-active, .csf-field-slider .ui-slider-handle{
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf-field-slider .ui-slider-range {
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf-theme-dark .csf-nav ul li .csf-active {
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+}
+.csf--placeholder .button{
+	background: linear-gradient(
+			90deg, #00cc99 0%, #00cc99 100%);
+	border: none;
+}
+.csf-buttons input.button, .csf-buttons input.button.button-primary.csf-top-save.csf-save {
+	height: 40px;
+}
+.csf-search input {
+	padding: 5px 10px;
+}
+.csf-theme-dark .csf-search input, .csf-theme-dark .csf-expand-all{
+	background: #252b3b;
+}
+.csf-expand-all {
+	padding: 5px 20px;
+}
+.csf-buttons input.button.button-primary.csf-top-save.csf-save {
+	background: #00cc99;
+	border: none;
+	min-width: 100px;
+}
+
+.csf-buttons input.button.csf-reset-section {
+	background: #dd4446;
+	border: none;
+	color: #fff;
+	padding: 0 20px;
+}
+.csf-buttons input.button.csf-reset-all{
+	padding: 0 20px;
+}
+.csf-theme-dark .csf-header-inner h1 small {
+	color: #6e7689;
+}
+
+.csf-content input[type=date],
+.csf-content input[type=datetime-local],
+.csf-content input[type=datetime],
+.csf-content input[type=email],
+.csf-content input[type=month],
+.csf-content input[type=number],
+.csf-content input[type=password],
+.csf-content input[type=search],
+.csf-content input[type=tel],
+.csf-content input[type=text],
+.csf-content input[type=time],
+.csf-content input[type=url],
+.csf-content input[type=week] {
+	min-height: 40px;
+}
+input[type="checkbox"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="radio"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+select:focus, textarea:focus {
+	border-color: #00cc99;
+}
+.csf-field .chosen-container-single .chosen-single {
+	height: 40px;
+	line-height: 39px;
+}
+.csf-content .chosen-container-single .chosen-single {
+	padding: 0px 5px 5px 15px;
+}
+input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+	border-color: #d2d2d2;
+}
+
+.button.button-primary.csf-cloneable-add{
+	background: #00cc99;
+	border: none;
+}
+.csf-field-group .csf-cloneable-title, .csf-field-textarea textarea {
+	border: 1px solid #202636;
+	background: #252b3b;
+	color: #fff;
+}
+.csf-field-group .csf-cloneable-header-icon {
+	vertical-align: middle;
+}
+.csf-field-group .csf-cloneable-content {
+	border: 1px solid #202636;
+}
+.chosen-container .chosen-results li.highlighted {
+	background-color: #00cc99;
+	background-image: linear-gradient(#00cc99 20%,#00cc99 90%);
+}
+.chosen-container .chosen-results li {
+	padding: 11px 12px;
+	border-radius: 3px;
+}
+.csf-content .chosen-container-single .chosen-single {
+	padding: 0px 5px 5px 15px;
+	min-width: 300px;
+	width: 100%;
+	background: transparent;
+	border-color: #eae8e8;
+	box-shadow: none;
+}
+.csf-content .chosen-container-single .chosen-single {
+	border-color: #eae8e8;
+	box-shadow: none;
+	color: #575757;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+	background: #00cc99;
+	border-color: #00cc99;
+	box-shadow: none;
+}
+.csf-field-media .hidden + .button {
+	background: #00cc99;
+	padding: 0px 23px;;
+}
+.chosen-container-single .chosen-drop {
+	border-color: #eae8e8;
+	box-shadow: none;
+}
+.wp-picker-container .wp-color-result.button {
+	min-height: 35px;
+}
+.wp-color-result-text {
+	padding: 2px 6px;
+}
+.csf-field-button_set .csf--active, .csf-field-button_set .csf--active:hover {
+	border-color: #00cc99;
+	background-color: #00cc99;
+}
+.csf-form-result {
+	padding: 0 26px;
+	line-height: 40px;
+}
+.csf-copyright a {
+	color: #ddd;
+}
+.csf-theme-dark .csf-footer {
+	color: #959393;
+}
+.csf-customize-field .chosen-container {
+	min-width: 100%;
+}
+.csf-customize-field .chosen-container-single .chosen-single {
+	box-shadow: none;
+	background: #fff;
+}
+.csf-field-color .button.wp-picker-clear {
+	padding: 0 15px;
+	min-height: 35px;
+}
+.wp-picker-container input[type="text"].wp-color-picker {
+	width: 5rem;
+	min-height: 35px;
+}
+
+#elementor-panel-inner {
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+	background: black !important;
+}

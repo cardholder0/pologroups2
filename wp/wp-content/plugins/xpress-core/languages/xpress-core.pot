@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-12-30 22:44+0600\n"
+"PO-Revision-Date: 2023-12-30 22:45+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: elementor/elementor-init.php:49
+msgid "Evisa Addons"
+msgstr ""
+
+#: elementor/elementor-init.php:56
+msgid "Evisa Header & Footer"
+msgstr ""
+
+#: elementor/widgets/blog-v2.php:103 elementor/widgets/blog-v3.php:103
+#: elementor/widgets/blog-v4.php:102 elementor/widgets/blog.php:176
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/widgets/blog-v2.php:122 elementor/widgets/blog-v3.php:122
+#: elementor/widgets/blog-v4.php:121 elementor/widgets/blog.php:195
+msgid "Title Length"
+msgstr ""
+
+#: elementor/widgets/blog-v2.php:131 elementor/widgets/blog-v3.php:131
+#: elementor/widgets/blog.php:204
+msgid "Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/blog-v4.php:406 elementor/widgets/blog.php:434
+msgid "By"
+msgstr ""
+
+#: elementor/widgets/blog.php:129 elementor/widgets/contact-me.php:110
+#: elementor/widgets/cta.php:161 elementor/widgets/parallax-image.php:105
+#: elementor/widgets/sec-title.php:148 elementor/widgets/team.php:114
+#: elementor/widgets/testimonial-rating.php:112
+#: elementor/widgets/testimonial.php:114 elementor/widgets/visa-title.php:126
+#: elementor/widgets/visa.php:134 elementor/widgets/xb-button.php:137
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/blog.php:134 elementor/widgets/contact-me.php:115
+#: elementor/widgets/cta.php:166 elementor/widgets/parallax-image.php:110
+#: elementor/widgets/sec-title.php:153 elementor/widgets/team.php:119
+#: elementor/widgets/testimonial-rating.php:117
+#: elementor/widgets/testimonial.php:119 elementor/widgets/visa-title.php:131
+#: elementor/widgets/visa.php:139 elementor/widgets/xb-button.php:142
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/blog.php:139 elementor/widgets/contact-me.php:120
+#: elementor/widgets/cta.php:171 elementor/widgets/parallax-image.php:115
+#: elementor/widgets/sec-title.php:158 elementor/widgets/team.php:124
+#: elementor/widgets/testimonial-rating.php:122
+#: elementor/widgets/testimonial.php:124 elementor/widgets/visa-title.php:136
+#: elementor/widgets/visa.php:144 elementor/widgets/xb-button.php:147
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/contact.php:140
+msgid "Location Input"
+msgstr ""
+
+#: elementor/widgets/contact.php:142
+msgid "Write the location name or address here."
+msgstr ""
+
+#: elementor/widgets/country-tab.php:127
+#, php-format
+msgid ""
+"Please note! Customize your selected template using Elementor. You can find "
+"it under <a href=\"%s\" target=\"_blank\">Elementor Templates</a>."
+msgstr ""
+
+#: elementor/widgets/country-tab.php:272 elementor/widgets/country-v2.php:206
+#: elementor/widgets/country.php:232
+msgid "Select"
+msgstr ""
+
+#: elementor/widgets/country-v2.php:124 elementor/widgets/country.php:117
+#, php-format
+msgid ""
+"Please note! Customize your selected Country using Elementor. You can find "
+"it under <a href=\"%s\" target=\"_blank\">Countries</a>."
+msgstr ""
+
+#: elementor/widgets/destination.php:90 elementor/widgets/footer-links.php:91
+#: elementor/widgets/sec-title.php:91 elementor/widgets/visa-title.php:91
+#: elementor/widgets/xb-button.php:91
+msgid "Design Style"
+msgstr ""
+
+#: elementor/widgets/destination.php:93
+msgid "Style Destination"
+msgstr ""
+
+#: elementor/widgets/destination.php:94
+msgid "Style Video"
+msgstr ""
+
+#: elementor/widgets/footer-links.php:94 elementor/widgets/sec-title.php:94
+#: elementor/widgets/visa-title.php:94 elementor/widgets/xb-button.php:94
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/footer-links.php:95 elementor/widgets/sec-title.php:95
+#: elementor/widgets/visa-title.php:95 elementor/widgets/xb-button.php:95
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/sec-title.php:96 elementor/widgets/xb-button.php:96
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/widget-country.php:103
+msgid "Country Per Page"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:51
+msgid "Header Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:52
+#: inc/metabox-and-options/metabox/common-metaboxes.php:68
+#: inc/metabox-and-options/metabox/common-metaboxes.php:202
+#: inc/metabox-and-options/metabox/common-metaboxes.php:224
+#: inc/metabox-and-options/theme-options/county-options.php:17
+#: inc/metabox-and-options/theme-options/portfolio-options.php:17
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:23
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:57
+msgid "Yes"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:53
+#: inc/metabox-and-options/metabox/common-metaboxes.php:69
+#: inc/metabox-and-options/metabox/common-metaboxes.php:203
+#: inc/metabox-and-options/metabox/common-metaboxes.php:225
+#: inc/metabox-and-options/theme-options/county-options.php:18
+#: inc/metabox-and-options/theme-options/portfolio-options.php:18
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:24
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:58
+msgid "No"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:60
+#: inc/metabox-and-options/theme-options/header-options.php:19
+msgid "Select Header Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:67
+msgid "DIsable This page Header?"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:201
+msgid "Footer Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:209
+#: inc/metabox-and-options/theme-options/footer-options.php:12
+msgid "Select Footer Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:223
+msgid "DIsable This page Footer?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/county-options.php:16
+#: inc/metabox-and-options/theme-options/portfolio-options.php:16
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:16
+#, php-format
+msgid "Evisa Options <small>V %s</small>"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:19
+msgid "Theme Options"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:28
+msgid ""
+"Developed by: <a target=\"_blank\" href=\"https://xpressbuddy."
+"com\">XpressBuddy</a>"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:22
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:56
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: inc/post-type/header-footer.php:7
+msgid "Header & Footer"
+msgstr ""
+
+#: inc/post-type/header-footer.php:8
+msgid "Template"
+msgstr ""
